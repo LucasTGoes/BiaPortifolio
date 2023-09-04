@@ -1,0 +1,70 @@
+.content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.contentReversed {
+
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.video {
+    width: 57%;
+
+    @media (min-width: 600px) {
+        width: 20%;
+    }
+
+}
+
+.videoReversed {
+    width: 57%;
+    margin-left: 8px;
+
+    @media (min-width: 600px) {
+        width: 20%;
+    }
+
+}
+
+.imagem {
+    display: flex;
+    flex-direction: column;
+    width: 39%;
+
+    @media (min-width: 600px) {
+        width: 14%;
+    }
+}
+
+.imagemReversed {
+    display: flex;
+    flex-direction: column;
+    width: 39%;
+    margin-left: 6px;
+
+    @media (min-width: 600px) {
+        width: 14%;
+    }
+}
+
+.img1 {
+    padding: 2px;
+    margin-bottom: 6px;
+}
+
+.img2 {
+    padding: 2px;
+    margin-bottom: 3px;
+
+}

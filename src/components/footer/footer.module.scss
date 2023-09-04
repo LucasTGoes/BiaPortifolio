@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&family=Parisienne&display=swap');
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Baloo 2', cursive;
+    color: white;
+}
+
+.medias {
+    background-color: rgb(41, 76, 70);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.socialMedias {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+
+    img {
+        // padding: 10px;
+        margin-bottom: 15px;
+
+        cursor: pointer;
+
+    }
+}

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&family=Parisienne&display=swap');
+
+.page {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+
+}
+
+
+.footer {
+    margin-top: 3rem;
+    height: inherit;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    display: block;
+
+}
+
+.fisrtCard {
+    margin-top: 160px;
+
+    @media (min-width: 600px) {
+        margin-top: 310px;
+    }
+}
+
+.cards {
+    margin-top: 20px;
+}
+
+.bigTittle {
+    font-family: 'Baloo 2', cursive;
+    color: rgb(41, 76, 70);
+    padding: 20px;
+
+    h1 {
+        text-align: center;
+    }
+
+
+    span {
+        font-weight: 500;
+
+    }
+}
