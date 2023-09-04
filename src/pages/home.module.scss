@@ -1,44 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.cdnfonts.com/css/gotham-6');
 
 .page {
     display: flex;
     flex-direction: column;
-    height: 100%;
     overflow: hidden;
 
     @media (min-width: 600px) {
-        background: linear-gradient(180deg, rgb(41, 76, 70) 5%, rgba(43, 203, 56, 0.6138830532212884) 50%, rgb(41, 76, 70) 100%);
+        background: linear-gradient(180deg, rgb(41, 76, 70) 5%, rgba(43, 203, 56, 0.6138830532212884) 70%, rgb(41, 76, 70) 90%);
     }
+}
 
+.header {
+    @media (min-width: 600px) {
+        display: flex;
+        align-self: center;
+        max-width: 750px;
+    }
 }
 
 .body {
+    margin-bottom: 1rem;
+    margin-left: 2px;
 
     @media (min-width: 600px) {
         align-self: center;
         max-width: 750px;
         background-color: white;
         height: 100%;
-        margin-top: -4rem;
+
     }
 }
 
 .footer {
-    height: inherit;
-    left: 0;
-    bottom: 0;
     width: 100%;
     text-align: center;
     display: block;
 
+
+    @media (min-width: 600px) {
+        display: flex;
+        align-self: center;
+        max-width: 750px;
+    }
+
 }
 
 .fisrtCard {
-    margin-top: 160px;
-
-    @media (min-width: 600px) {
-        margin-top: 310px;
-    }
+    margin-top: 2rem;
 }
 
 .cards {
@@ -46,18 +55,24 @@
 }
 
 .bigTittle {
-    font-family: 'Baloo 2', cursive;
+    letter-spacing: 2px;
+    font-family: 'Bebas Neue', sans-serif;
     color: rgb(41, 76, 70);
     padding: 20px;
 
     h1 {
         text-align: center;
+        font-size: 2.2rem;
     }
 
 
     span {
         font-weight: 500;
 
+    }
+
+    p {
+        font-family: 'Gotham', sans-serif;
     }
 
     @media (min-width: 600px) {
@@ -68,9 +83,107 @@
 
 
         p {
+            font-family: 'Gotham', sans-serif;
             font-weight: 500;
             font-size: 1.3rem;
 
         }
     }
 }
+
+
+.seccondVideo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    margin-left: 8px;
+    margin-top: -1rem;
+
+    @media (min-width: 600px) {
+        margin-top: -1.5rem;
+        margin-left: 12px;
+        margin-bottom: 5px;
+    }
+
+    div {
+        padding: 5px;
+    }
+}
+
+.seccondGridImages {
+    width: 100%;
+    margin-top: -0.4rem;
+    margin-left: 2rem;
+
+    @media (min-width: 600px) {
+        margin-left: 4rem;
+
+    }
+
+    img {
+        padding: 4px;
+
+        @media (min-width: 600px) {
+            padding: 9px
+        }
+    }
+}
+
+
+
+.thirdVideo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    margin-left: 3px;
+    margin-top: -1.2rem;
+
+    @media (min-width: 600px) {
+        margin-left: 6px;
+        margin-top: -1.6rem;
+        margin-right: 8.5rem;
+        margin-bottom: 11px;
+
+    }
+
+    div {
+        padding: 5px;
+        width: 82%;
+
+        @media (max-width: 600px) {
+            margin-left: -2rem;
+        }
+
+
+        @media (min-width: 600px) {
+            width: 100%
+        }
+    }
+}
+
+.thirdGridImages {
+    margin-top: -0.6rem;
+    width: 84%;
+
+
+    @media (min-width: 600px) {
+        width: 100%;
+        margin-left: 4.2rem;
+        margin-top: -0.7rem;
+    }
+
+    img {
+        padding: 4px;
+        margin-top: 6px;
+
+        @media (max-width: 600px) {
+            margin-left: 2rem;
+        }
+
+        @media (min-width: 600px) {
+            margin-left: -4.2rem;
+            padding: 5px
+        }
+    }
+}
+

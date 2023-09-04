@@ -1,13 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 .footer {
     display: flex;
     flex-direction: column;
-    font-family: 'Baloo 2', cursive;
+    font-family: 'Bebas Neue', sans-serif;
     color: white;
     height: 10rem;
     justify-content: center;
-    margin-top: 2rem;
+    width: 100%;
+    letter-spacing: 2px;
 }
 
 .medias {
@@ -16,6 +17,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
 
 }
 

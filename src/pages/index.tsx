@@ -1,6 +1,7 @@
 import Card from '../components/card/card'
 import Footer from '../components/footer/footer.component'
 import Header from '../components/header/header.component'
+import Video from '../components/videos/video'
 import styles from './home.module.scss'
 
 
@@ -17,7 +18,7 @@ export default function LandingPage(props: any) {
 
 
         <div className={styles.fisrtCard}>
-          <Card videoSrc={"../../assets/videos/video14.mp4"} firstImgSrc={"../../assets/images/imagem1.jpg"}
+          <Card videoWidth={"96%"} videoSrc={"../../assets/videos/video14.mp4"} firstImgSrc={"../../assets/images/imagem1.jpg"}
             seccondImgSrc={"../../assets/images/imagem2.jpg"} reverse={false} />
         </div>
 
@@ -38,19 +39,78 @@ export default function LandingPage(props: any) {
 
           <br />
 
-          <h1>MEUS TRABALHOS</h1>
+          <h1>PRODUÇÕES</h1>
         </div>
 
 
         <div className={styles.cards}>
-          <Card videoSrc={"../../assets/videos/video14.mp4"} firstImgSrc={"../../assets/images/imagem1.jpg"}
-            seccondImgSrc={"../../assets/images/imagem2.jpg"} reverse={true} />
-          <Card videoSrc={"../../assets/videos/video14.mp4"} firstImgSrc={"../../assets/images/imagem1.jpg"}
-            seccondImgSrc={"../../assets/images/imagem2.jpg"} reverse={false} />
-          <Card videoSrc={"../../assets/videos/video14.mp4"} firstImgSrc={"../../assets/images/imagem1.jpg"}
-            seccondImgSrc={"../../assets/images/imagem2.jpg"} reverse={true} />
-          <Card videoSrc={"../../assets/videos/video14.mp4"} firstImgSrc={"../../assets/images/imagem1.jpg"}
-            seccondImgSrc={"../../assets/images/imagem2.jpg"} reverse={false} />
+
+          {/*           
+          <Card  videoWidth={"90%"} imgWidth={"90%"} videoSrc={"../../assets/videos/video18.mp4"} firstImgSrc={"../../assets/images/imagem15.jpg"}
+            seccondImgSrc={"../../assets/images/imagem14.jpg"} reverse={true} />
+
+          <Card videoWidth={"99%"}  imgWidth={"97%"} videoSrc={"../../assets/videos/video10.mp4"} firstImgSrc={"../../assets/images/imagem16.jpg"}
+            seccondImgSrc={"../../assets/images/imagem17.jpg"} reverse={true} />
+          <Card imgWidth={"39%"} videoSrc={"../../assets/videos/video1.mp4"} firstImgSrc={"../../assets/images/imagem19.jpg"}
+            seccondImgSrc={"../../assets/images/imagem18.jpg"} reverse={false} /> */}
+
+
+          {/* <div className={styles.fisrtGrid}>
+
+
+            <div>one</div>
+            <div>two</div>
+            <div>tree</div> */}
+
+
+          <div className={styles.seccondVideo}>
+            <div>
+              <video width={"116%"} autoPlay={true} loop muted>
+                <source src={"../../assets/videos/video18.mp4"} type="video/mp4" />
+              </video>
+            </div>
+
+            <div className={styles.seccondGridImages}>
+              <img width={"80%"} className={styles.img1} src={"../../assets/images/imagem15.jpg"} alt="" />
+              <img width={"80%"} className={styles.img2} src={"../../assets/images/imagem14.jpg"} alt="" />
+            </div>
+          </div>
+
+
+
+          <div className={styles.thirdVideo}>
+
+            <div className={styles.thirdGridImages}>
+              <img width={"96%"} className={styles.img1} src={"../../assets/images/imagem19.jpg"} alt="" />
+              <img width={"96%"} className={styles.img2} src={"../../assets/images/imagem18.jpg"} alt="" />
+            </div>
+
+            <div>
+              <video width={"142%"} autoPlay={true} loop muted>
+                <source src={"../../assets/videos/video1.mp4"} type="video/mp4" />
+              </video>
+            </div>
+          </div>
+
+
+          <div className={styles.seccondVideo}>
+            <div>
+              <video width={"116%"} autoPlay={true} loop muted>
+                <source src={"../../assets/videos/video10.mp4"} type="video/mp4" />
+              </video>
+            </div>
+
+            <div className={styles.seccondGridImages}>
+              <img width={"80%"} className={styles.img1} src={"../../assets/images/imagem16.jpg"} alt="" />
+              <img width={"80%"} className={styles.img2} src={"../../assets/images/imagem17.jpg"} alt="" />
+            </div>
+          </div>
+
+
+          <Video firstVideoSrc={"../../assets/videos/video17.mp4"} seccondVideoSrc={"../../assets/videos/video15.mp4"} />
+          <Video firstVideoSrc={"../../assets/videos/video16.mp4"} seccondVideoSrc={"../../assets/videos/video.mp4"} />
+          <Video firstVideoSrc={"../../assets/videos/video4.mp4"} seccondVideoSrc={"../../assets/videos/video11.mp4"} />
+
         </div>
 
       </div>

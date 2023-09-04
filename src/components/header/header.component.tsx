@@ -18,8 +18,6 @@ export default function Header() {
                 <h3>Planejamento de Mídias Sociais | Atendimento ao Cliente | Marketing Digital | Analista de Conteúdo | Figma | UX/UI | Social Media</h3>
             </div>
 
-
-
         </div>
     )
 }
