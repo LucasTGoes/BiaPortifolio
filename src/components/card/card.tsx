@@ -12,9 +12,6 @@ interface CardProps {
 
 export default function Card({ videoSrc, firstImgSrc, seccondImgSrc, reverse }: CardProps) {
 
-
-
-
     return (
         <div className={reverse ? styles.contentReversed : styles.content}>
 

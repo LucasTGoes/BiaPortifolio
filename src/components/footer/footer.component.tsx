@@ -26,16 +26,16 @@ export default function Footer() {
                 <h1>Meus Contatos</h1>
                 <div className={styles.socialMedias}>
 
-                    <a href="https://www.linkedin.com/in/bia-chagas/" target='_blank'>
+                    <a href="https://www.linkedin.com/in/bia-chagas/" target='_blank' rel="noreferrer">
                         <img width={60} src="../../../assets/icons/linkedin.svg" alt="Linkedin" />
                     </a>
 
 
-                    <a href="https://www.instagram.com/biachagass_/" target='_blank'>
+                    <a href="https://www.instagram.com/biachagass_/" target='_blank' rel="noreferrer">
                         <img width={60} src="../../../assets/icons/instagram.svg" alt="Instagram" />
                     </a>
 
-                    <a href={`https://${whats}.whatsapp.com/send?phone=5521984751343`} target='_blank'>
+                    <a href={`https://${whats}.whatsapp.com/send?phone=5521984751343`} target='_blank' rel="noreferrer">
                         <img width={60} src="../../../assets/icons/whatsapp.svg" alt="Whatsapp" />
                     </a>
 
