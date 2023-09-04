@@ -22,17 +22,17 @@
     width: 57%;
 
     @media (min-width: 600px) {
-        width: 20%;
+        width: 57%;
     }
 
 }
 
 .videoReversed {
     width: 57%;
-    margin-left: 8px;
+    margin-left: 10px;
 
     @media (min-width: 600px) {
-        width: 20%;
+  margin-left: 18px;
     }
 
 }
@@ -42,9 +42,7 @@
     flex-direction: column;
     width: 39%;
 
-    @media (min-width: 600px) {
-        width: 14%;
-    }
+    @media (min-width: 600px) {}
 }
 
 .imagemReversed {
@@ -54,7 +52,7 @@
     margin-left: 6px;
 
     @media (min-width: 600px) {
-        width: 14%;
+        margin-left: 11px;
     }
 }
 
